@@ -1,0 +1,43 @@
+.navigation__list--footer {
+
+   display: inline-grid;
+   color: #ffff;
+   font-weight: 600;
+}
+
+
+.section--footer-description {
+
+
+   background-color: #5e72e4;
+   border-top: 3.1px solid rgba(0, 0, 0, 0.041);
+   color: #ffff;
+
+
+}
+
+.navigation__item--footer {
+   display: block;
+   background-color: #5e72e4;
+
+}
+
+
+.navigation__item--margin {
+   margin: 3vw;
+
+}
+
+
+.item__footer {
+   display: flex;
+   position: absolute;
+   left: 12.8vw;
+   top: 325.5vw;
+}
+
+.item__footer--direction {
+   display: flex;
+   position: absolute;
+   left: 75vw;
+}

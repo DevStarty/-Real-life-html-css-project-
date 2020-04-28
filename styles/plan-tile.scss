@@ -1,0 +1,147 @@
+.plain-tile {
+  height: 463px;
+  width: 283px;
+  display: flex;
+  flex-direction: column;
+  background-color: #5e72e4;
+  align-items: center;
+}
+
+.section--plain_tile {
+
+  background-color: #f4f5f7;
+
+}
+
+.plain-tile--start {
+  background-color: #ffff;
+
+
+}
+
+.plain-tile--basic {
+  padding-top: 2.4vh;
+  padding-bottom: 2.7vh;
+  color: #ffff;
+}
+
+.plain-tile--pro {
+  background-color: #172b4d;
+  ;
+  color: #ffff;
+
+}
+
+
+.plain-tile_container {
+
+
+  display: flex;
+  align-items: center;
+
+
+
+}
+
+.tile--text_container {
+
+  padding-top: 1.2vh;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  text-align: justify;
+}
+
+.navigation__item--planStart {
+  display: block;
+  color: #172b4d;
+  margin: 0;
+}
+
+
+.navigation__list--planPro {
+  flex-direction: column;
+  color: #ffff;
+
+}
+
+.navigation__list--planStart {
+  flex-direction: column;
+  color: #172b4d;
+
+}
+
+// .navigation__item--planStart::before{
+
+//   content: "";
+//  display: inline-block;
+//  width: 16px;
+//  height: 16px;
+//  background-image: linear-gradient(#f38f54e3,#f96930f5,#f84105);
+// border-radius: 51%;
+// margin-right: 10px;
+// background-image: element( $icon-like);
+
+// }
+
+.navigation__element {
+  margin-top: 3vh;
+  margin-bottom: -3vh;
+  display: block;
+  color: #ffff;
+  margin-right: 8vh;
+  font-weight: 300;
+  line-height: 3vh;
+
+}
+
+.title--capitalize {
+  text-transform: capitalize;
+}
+
+.navigation--line-height_and_others {
+
+  line-height: 4vh;
+
+
+  border-bottom: 3.1px solid rgba(248, 248, 248, 0.09);
+
+}
+
+.navigation__item--planBasic {
+  color: #ffff;
+  display: block;
+}
+
+.navigation__item--planStart {
+  color: #172b4d;
+  display: block;
+}
+
+.navigation__item--planPro {
+  color: #ffff;
+  display: block;
+}
+
+
+
+.section__description--cennik {
+
+  color: #5e72e4;
+
+}
+
+
+/*
+  try to recreate a plan tile from desing (Cennik section)
+  Create only styles for middle tile, and apply it to all 3 tiles.
+
+  you can use any icon for the list and the button
+
+  remember that list should be kept in <ul> and <li> tags
+
+  if You will not have an idea how to create line between list and price
+  then simply ignore that
+
+  You do not have to measure sizes from the design,
+  try to recreate it but You don't have to be pixel perfect.
+  */

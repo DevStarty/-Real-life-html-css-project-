@@ -1,0 +1,35 @@
+.section--interface {
+
+    align-self: flex-start;
+    margin-left: -7%;
+}
+
+.tile--new-feature {
+
+
+    width: 50%;
+    font-size: small;
+}
+
+.section--new__image {
+
+    background-image: url('../assets/visualisation3.png');
+    margin-right: 39px;
+}
+
+.section__content--position_content {
+
+    background-position-x: right;
+    background-size: contain;
+
+}
+
+
+.tile--feature__font {
+
+    font-weight: 500;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+
+
+}
